@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "wbrtc-peer-to-peer",
+    "staging": "wbrtc-peer-to-peer"
+  }
+}

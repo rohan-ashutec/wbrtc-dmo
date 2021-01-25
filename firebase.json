@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/ng-rtc-call-app",
+    "site":"wbrtc-peer-to-peer",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
